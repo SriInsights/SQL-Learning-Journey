@@ -1,0 +1,11 @@
+CREATE TABLE gold_prices(
+    timestamp TEXT PRIMARY KEY,
+    open REAL,
+    high REAL,
+    low REAL,
+    close REAL,
+    volume REAL,
+    currency TEXT,
+    unit TEXT,
+    headlines TEXT
+);
